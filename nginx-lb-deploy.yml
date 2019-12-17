@@ -8,7 +8,6 @@
     pip:
       name: docker
 
-  tasks:
    - name: launch nginx-lb container on lb nodes
      docker_container:
        name: nginx-lb
